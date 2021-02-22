@@ -60,17 +60,59 @@ a {
     opacity: 1;
 }
 
-.background:hover .block_small {
+.background:hover .block_small1 {
    opacity: 0.5;
 }
+
+.background:hover .block_small2 {
+	opacity: 0.5;
+ }
+
+ .background:hover .block_small3 {
+	opacity: 0.5;
+ }
+
+ .background:hover .block_small4 {
+	opacity: 0.5;
+ }
+
+ .background:hover .block_small5 {
+	opacity: 0.5;
+ }
 
 .background:hover .block_big {
    opacity: 0.5;
 }
 
-.block_small {
+
+.block_small1 {
+	background-image: url(https://akcenty.com.ua/images/2019/05/04/oN4lJJp6Vb0ZBdIu59kEkjrOtUpa0vMf8hif4nzL.jpeg);
+	background-size: 292px 330px;
 	border-radius: 7px;
-	flex: 1;
+	width: 285px;
+	height: 325px;	
+}
+
+.block_small2 {
+	background-image: url(https://1.bp.blogspot.com/-_VBMjCV7J8c/VutE5tC46sI/AAAAAAAAAB0/r5bc4oSepvkC3hWVzJQKUc0uqXWhnxg_Q/s1600/Old-Map-2.31.jpg);
+	background-size: 292px 332px;
+	border-radius: 7px;
+	width: 285px;
+	height: 325px;	
+}
+
+.block_small3 {
+	background-image: url(https://volyn.com.ua/content/thumbs/1500x1000/g/c6/xvx4mb-7vrrzx7bvantts2amwf2cnyeuwgr7c6g.jpg);
+	background-size: 292px 332px;
+	border-radius: 7px;
+	width: 285px;
+	height: 325px;	
+}
+
+.block_small4 {
+	background-image: url(https://lexinform.com.ua/wp-content/uploads/2019/02/59_wide-min.jpg);
+	background-size: 292px 332px;
+	border-radius: 7px;
 	width: 285px;
 	height: 325px;	
 }
@@ -90,45 +132,48 @@ h4 {
 
 
 .publication_text1 {
-	margin-top: -180px;
+	margin-top: 152px;
+	margin-left: -4px;
 	position: absolute;
 	background: linear-gradient(to top,  #8B4513 65%, transparent);
-	width: 280px;
+	width: 286px;
 	height: 170px;	
 	border-radius: 7px;
 }
  
  .publication_text2 {
-	margin-top: -230px;
+	margin-top: 102px;
+	margin-left: -3px;
 	position: absolute;
 	background: linear-gradient(to top, #A0522D 65%, transparent);
-	width: 280px;
+	width: 285px;
 	height: 220px;	
 	border-radius: 7px;
  }
 	
 	
 .publication_text3 {
-	margin-top: -180px;
+	margin-top: 152px;
+	margin-left: -3px;
 	position: absolute;
 	background: linear-gradient(to top,  #DEB887 65%, transparent);
-	width: 280px;
+	width: 285px;
 	height: 170px;
 	border-radius: 7px;	
 }
 
 
 .publication_text4 {
-	margin-top: -230px;
+	margin-top: 102px;
+	margin-left: -3px;
 	position: absolute;
 	background: linear-gradient(to top,  #696969 65%, transparent);
-	width: 280px;
+	width: 285px;
 	height: 220px;	
 	border-radius: 7px;
 }
 
 .publication_text5 {
-	margin-top: -330px;
 	position: absolute;
 	background: linear-gradient(to right,  #FFD700 65%, transparent);
 	width: 330px;
@@ -137,18 +182,26 @@ h4 {
 }
 
 .block_big {
+	background-image: url(https://habrastorage.org/webt/9t/9l/vm/9t9lvmkomk56v41_-tso6mohnb0.png);
+	background-size: 580px 325px;
 	border-radius: 7px;
 	width: 580px;
-	height: 325px;
+	height: 315px;
 }
 
 @media (max-width: 600px) {
 	.block_big {
+		background-image: url(https://itproger.com/img/courses/1476977754.jpg);
+		background-size: 285px 325px;
 		width: 285px;
+		height: 325px;	
+		
 	}
 	.publication_text5 {
-		width: 280px;
-		background: linear-gradient(to top,  #FFD700 50%, transparent);
+		margin: 102px 0px -7px -3px;
+		width: 285px;
+		height: 220px;
+		background: linear-gradient(to top,  #FFA500 50%, transparent);
 	}
 	
 }
