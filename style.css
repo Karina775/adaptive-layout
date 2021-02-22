@@ -176,6 +176,7 @@ h4 {
 .publication_text5 {
 	position: absolute;
 	background: linear-gradient(to right,  #FFD700 65%, transparent);
+	margin-top: -2px;
 	width: 330px;
 	height: 320px;	
 	border-radius: 7px;
@@ -183,10 +184,10 @@ h4 {
 
 .block_big {
 	background-image: url(https://habrastorage.org/webt/9t/9l/vm/9t9lvmkomk56v41_-tso6mohnb0.png);
-	background-size: 580px 325px;
+	background-size: 590px 330px;
 	border-radius: 7px;
 	width: 580px;
-	height: 315px;
+	height: 325px;
 }
 
 @media (max-width: 600px) {
@@ -205,4 +206,3 @@ h4 {
 	}
 	
 }
-
