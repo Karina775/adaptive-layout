@@ -11,6 +11,7 @@ body {
 	margin: 0px auto;
     display: flex;
     flex-direction: column;
+	max-width: 1000px;
     width: 70%;
 }
 
@@ -190,7 +191,7 @@ h4 {
 	height: 325px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 	.block_big {
 		background-image: url(https://itproger.com/img/courses/1476977754.jpg);
 		background-size: 285px 325px;
